@@ -17,7 +17,7 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
 * [Sign up][sign_up] for Bluemix. 
 * Download and install Cloud Foundry CLI to be used on the terminal.
 * Clone or download the repository (green button to the top-right)
-* Open the terminal and following these steps:
+* Open the terminal and follow these steps:
 ```
     $cf api https://api.ng.bluemix.net # switch "ng" to "eu-gb" to target the UK region instead
     $cf login # use prompts to navigate to the desired space
