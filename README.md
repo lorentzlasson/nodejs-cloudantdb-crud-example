@@ -24,10 +24,6 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
     $cf login
     $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
 ```
-* Start the application by typing
-```
-    $cf start NodeJSCloudantSampleApp
-```    
 
 And voila! Your very own instance of Cloudant NoSQL DB with NodeJSCloudantSampleApp is now running on Bluemix.
 
