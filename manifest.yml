@@ -4,6 +4,5 @@ declared-services:
     plan: Shared
 applications:
 - memory: 256M
-  name: NodeJSCloudantSampleApp
   services:
   - cloudant-nodejs
