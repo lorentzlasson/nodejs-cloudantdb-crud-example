@@ -17,12 +17,12 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
 * [Sign up][sign_up] for Bluemix. 
 * Download and install Cloud Foundry CLI to be used on the terminal.
 * Clone or download the repository (green button to the top-right)
-* On the Terminal, Connect to Bluemix using the CF CLI and follow the prompts to log in. 
-* Once you're in the same space as the app, create the Cloudant NoSQL DB service in Bluemix
+* Open the terminal and following these steps:
 ```
     $cf api https://api.ng.bluemix.net # switch "ng" to "eu-gb" to target the UK region instead
-    $cf login
+    $cf login # use prompts to navigate to the desired space
     $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
+    $cf push <APP_NAME> # needs to be unique for the region so that the url doesn't collide with another
 ```
 
 And voila! Your very own instance of Cloudant NoSQL DB with NodeJSCloudantSampleApp is now running on Bluemix.
