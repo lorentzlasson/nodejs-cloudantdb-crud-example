@@ -24,10 +24,6 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
     $cf login
     $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
 ```
-* Bind this service to your app
-```
-    $cf bs NodeJSCloudantSampleApp <service-name-as-in-previous-step>
-```
 * Edit the manifest.yml file and change the <application-host> parameter to something unique.
 ```
     applications:
