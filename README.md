@@ -22,7 +22,7 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
 ```
     $cf api https://api.ng.bluemix.net # switch "ng" to "eu-gb" to target the UK region instead
     $cf login
-    $cf create-service cloudantNoSQLDB Shared <service-name>
+    $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
 ```
 * Bind this service to your app
 ```
