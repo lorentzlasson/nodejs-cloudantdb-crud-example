@@ -20,7 +20,7 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
 * On the Terminal, Connect to Bluemix using the CF CLI and follow the prompts to log in. 
 * Once you're in the same space as the app, create the Cloudant NoSQL DB service in Bluemix
 ```
-    $cf api https://api.ng.bluemix.net
+    $cf api https://api.ng.bluemix.net # switch "ng" to "eu-gb" to target the UK region instead
     $cf login
     $cf create-service cloudantNoSQLDB Shared <service-name>
 ```
