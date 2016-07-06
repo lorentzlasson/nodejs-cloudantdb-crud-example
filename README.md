@@ -24,13 +24,6 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
     $cf login
     $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
 ```
-   REMOVE the following lines from manifest.yml as you no longer need this cloudant service. The one you created in step 4 will be the one primarily used.
-```   
-	declared-services:
-  	   cloudant-nodejs:
-    	     label: cloudantNoSQLDB
-    	     plan: Shared
-```    	     
 * Start the application by typing
 ```
     $cf start NodeJSCloudantSampleApp
