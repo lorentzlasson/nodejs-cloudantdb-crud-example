@@ -24,18 +24,6 @@ This application uses the [Cloudant NoSQL Database service](https://console.ng.b
     $cf login
     $cf create-service cloudantNoSQLDB Shared cloudant-nodejs
 ```
-* Edit the manifest.yml file and change the <application-host> parameter to something unique.
-```
-    applications:
-    - path: .
-    name: NodeJSCloudantSampleApp
-    host: <change_to_something_unique>
-    framework: node
-    memory:256M
-    instances: 1
-    services:
-    - <service-name>
-```
    The host you use will determinate your application url(e.g. <host>.mybluemix.net). REMOVE the following lines from manifest.yml as you no longer need this cloudant service. The one you created in step 4 will be the one primarily used.
 ```   
 	declared-services:
